@@ -1,4 +1,4 @@
-#Project: Finding Donors for CharityML
+# Project: Finding Donors for CharityML
 ## Problem Description
 In this project, implementation of several supervised algorithms is done to accurately model individuals' income using data collected from the 1994 U.S. Census . Then the best candidate algorithm from preliminary results will be choosen and further optimize this algorithm to best model the data. The goal with this implementation is to construct a model that accurately predicts whether an individual makes more than $50,000. This sort of task can arise in a non-profit setting, where organizations survive on donations.  Understanding an individual's income can help a non-profit better understand how large of a donation to request, or whether or not they should reach out to begin with.  While it can be difficult to determine an individual's general income bracket directly from public sources, we can (as we will see) infer this value from other publically available features. 
 
@@ -13,18 +13,12 @@ This project requires **Python 2.7** and the following Python libraries installe
 - [Pandas](http://pandas.pydata.org)
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
+- [iPython Notebook](http://ipython.org/notebook.html)
 
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
-
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
-
-### Code
-
-Template code is provided in the `finding_donors.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `census.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
 
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `finding_donors/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory `donor/` (that contains this README) and run one of the following commands:
 
 ```bash
 ipython notebook finding_donors.ipynb
